@@ -6,10 +6,15 @@
 */
 #pragma once
 #ifdef  HZ_PLATFORM_WINDOWS
+#include "Log.h"
 extern hazel::Application* hazel::CreateApplication();
 int main(int argc,char** argv) {
+	//²âÊÔ
+	hazel::Log::Init();
+	HZ_CORE_WARN("Initialized log!");
+	int a = 5;
+	HZ_INFO("hello! Var={0}",a);
 
-	printf("Hello Hazel!\n");
 	auto app = hazel::CreateApplication();
 	app->Run();
 
