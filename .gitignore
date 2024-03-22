@@ -1,9 +1,0 @@
-#Directory
-.vs/
-bin/
-bin-int/
-#files
-*.user
-*.vcxproj
-*.filters
-*.sln
