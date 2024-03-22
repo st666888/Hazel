@@ -1,7 +1,7 @@
 #pragma once
-
+#include "hzpch.h"
 #include "Event.h"
-#include <sstream>
+
 
 namespace Hazel {
 	class HZ_API KeyEvent : public Event {

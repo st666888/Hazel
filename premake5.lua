@@ -26,9 +26,11 @@ project "Hazel"
 
 	includedirs
 	{	
-		"%{prj.name}/src"
+		"%{prj.name}/src",
 		"%{prj.name}/vendor/spdlog/include"
 	}
+	pchheader "hzpch.h"
+	pchsource "Hazel/src/hzpch.cpp"
 
 	filter "system:windows"
 		cppdialect "C++17"

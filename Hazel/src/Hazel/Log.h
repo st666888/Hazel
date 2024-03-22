@@ -1,8 +1,8 @@
 #pragma once
+#include "hzpch.h"
 #include "Core.h"
 #include "spdlog/spdlog.h" 
 #include "spdlog/fmt/ostr.h" //添加spdlog的输出流操作符
-#include <memory>
 namespace Hazel {
 class HZ_API Log
 {
