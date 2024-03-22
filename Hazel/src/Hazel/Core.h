@@ -14,3 +14,4 @@
 #error HAZEL IS BUILD FOR WINDOWS!
 #endif
 
+#define BIT(x) (1 << x)

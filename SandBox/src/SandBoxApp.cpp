@@ -1,6 +1,6 @@
 #include <iostream>
 #include <Hazel.h>
-class SandBox : public hazel::Application {
+class SandBox : public Hazel::Application {
 public:
 	SandBox() {
 
@@ -14,4 +14,4 @@ public:
 //auto app = hazel::CreateApplication();
 //app->Run(); 来运行程序。
 //工作完成后，实现了主函数的实际在Hazel引擎之中，客户端只负责实现CreateApplication()函数即可。
-hazel::Application* hazel::CreateApplication(){return new SandBox();}
+Hazel::Application* Hazel::CreateApplication(){return new SandBox();}

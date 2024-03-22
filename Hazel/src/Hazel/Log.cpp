@@ -1,6 +1,6 @@
 #include "Log.h"
 #include "spdlog/sinks/stdout_color_sinks.h"
-namespace hazel {
+namespace Hazel {
 	//类内非const静态成员只能在类外定义。
 	std::shared_ptr<spdlog::logger> Log::s_CoreLogger;
 	std::shared_ptr<spdlog::logger> Log::s_ClientLogger;

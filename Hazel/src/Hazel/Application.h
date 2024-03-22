@@ -1,6 +1,7 @@
 #pragma once
 #include "Core.h"
-namespace hazel {
+#include "Events/Event.h"
+namespace Hazel {
 	class HZ_API Application
 	{
 	public:
